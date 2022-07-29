@@ -13,5 +13,5 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 ##this is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "MyCurrencyApp"
+          heroku_app_name: "frozen-scrubland-15067"
           heroku_email: jherngt@gmail.com
